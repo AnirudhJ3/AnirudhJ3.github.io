@@ -1,4 +1,5 @@
 **Welcome to the Matrix**
+
 **About Me**  
 
 I'm an AI & Robotics researcher focused on **building digital twins to advance Physical AI**. My current work involves creating high-fidelity digital-twins of real-world environments using **radiance field rendering, 3D computer vision, and robotics simulation**. As a robotics graduate researcher, I develop **Perception and SLAM algorithms** for autonomous systems.
