@@ -13,7 +13,7 @@ I'm an AI & Robotics researcher focused on **building digital twins to advance P
 
 ### Notable Projects:  
 - **Warehouse Robot Navigation & Simulation** – Training AI agents for autonomous warehouse operations using MuJoCo.
-- **Warehouse AMR Navigation** – Working on **warehouse robot navigation and simulation in MuJoCo** using **RL and Model Predictive Control**.  
+- **Warehouse AMR Navigation** – Developed a **warehouse robot navigation and simulation in MuJoCo** using **RL and Model Predictive Control**.  
 - **AI-Driven Security Log Analysis** – Scalable anomaly detection using Kafka, GCP, and FastAPI.  
 - **WaiterAI** – Voice assistant with **Whisper & RAG**, optimized for real-time interactions.  
 
