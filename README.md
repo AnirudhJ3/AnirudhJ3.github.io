@@ -6,7 +6,9 @@ I'm an AI & Robotics researcher focused on **building digital twins to advance P
 
 ### What I Work On:  
 🤖 **Digital Twins & Robotics Simulation** – Using **Gaussian Splatting** and **3D vision** to create realistic virtual environments. 
+
 ⚡ **Robotics Software & Algorithms** – Developing **stereo visual odometry, SLAM, and perception systems** for autonomous robots.  
+
 🔬 **High-Performance AI** – GPU-accelerated deep learning, real-time inference, and scalable AI architectures.  
 
 ### Notable Projects:  
