@@ -2,7 +2,9 @@
 
 **About Me**  
 
-I'm an AI & Robotics researcher focused on **building digital twins to advance Physical AI**. My current work involves creating high-fidelity digital-twins of real-world environments using **radiance field rendering, 3D computer vision, and robotics simulation**. As a robotics graduate researcher, I develop **Perception and SLAM algorithms** for autonomous systems.
+I'm a Robotics & AI researcher focused on advancing Physical AI through high-fidelity digital twins, embodied intelligence, and scalable real-time systems. At the intersection of 3D computer vision, radiance field rendering, and robotics simulation, I build realistic digital environments to accelerate real-world deployment of intelligent agents.
+
+Currently, I’m a Graduate Researcher at UB CAVAS Lab, where I build real-time localization and perception pipelines for autonomous systems, including sensor fusion (GPS+LiDAR+IMU), robust lane detection in snow, and hardware-in-the-loop testing.
 
 ### What I Work On:  
 🤖 **Digital Twins & Robotics Simulation** – Using **Gaussian Splatting** and **3D vision** to create realistic virtual environments. 
@@ -12,10 +14,17 @@ I'm an AI & Robotics researcher focused on **building digital twins to advance P
 🔬 **High-Performance AI** – GPU-accelerated deep learning, real-time inference, and scalable AI architectures.  
 
 ### Notable Projects:  
-- **Warehouse Robot Navigation & Simulation** – Training AI agents for autonomous warehouse operations using MuJoCo.
-- **Warehouse AMR Navigation** – Developed a **warehouse robot navigation and simulation in MuJoCo** using **RL and Model Predictive Control**.  
-- **AI-Driven Security Log Analysis** – Scalable anomaly detection using Kafka, GCP, and FastAPI.  
-- **WaiterAI** – Voice assistant with **Whisper & RAG**, optimized for real-time interactions.  
+
+- 🛰️ Sensor Fusion for Autonomous Navigation – Real-time LiDAR-GPS-IMU fusion with ROS 2 for <2cm localization error; deployed on embedded platforms.
+
+- ❄️ Lane Detection in Snowy Conditions – Robust CV pipeline using synthetic + real data, improving detection accuracy by 15% in adverse weather.
+
+- 🏭 Warehouse Robot Navigation – Simulated and trained navigation policies using DRL, MPC, and ROS integration in MuJoCo.
+
+- 🧠 Fine-Tuned Vision-Language Models – Built LLM + VLM pipeline for industrial process monitoring, reducing manual inspection by 60%.
+
+- 📦 Synthetic Data for AMRs – Trained perception models with NVIDIA Omniverse data; improved object detection by 24% in edge cases.
+
 
 ### Tech Stack:  
 🦾 **Robotics & Vision** – ROS, MuJoCo, OpenCV, Radiance Fields  
