@@ -1,0 +1,296 @@
+/* ======================
+   Anirudh Jayanthi - AI & Robotics Portfolio CSS
+   Theme: Dark + Spotify Green Accent (#1db954)
+   ======================= */
+
+/* Global Settings */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Navigation */
+nav {
+  background: #000;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo {
+  color: #1db954;
+  font-size: 1.75rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+nav .nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+nav .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+nav .nav-links a:hover {
+  color: #1db954;
+}
+
+/* Home Section */
+.home-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: url('assets/images/preview/anirudh_image.jpeg') center/cover no-repeat;
+  position: relative;
+  text-align: center;
+}
+.home-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 0;
+}
+.home-section * {
+  position: relative;
+  z-index: 1;
+}
+.home-section h1 {
+  font-size: 3rem;
+  color: #1db954;
+  margin-bottom: 1rem;
+}
+.home-section p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin-bottom: 1.5rem;
+}
+.social-links a {
+  color: #fff;
+  margin: 0 0.75rem;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+.social-links a:hover {
+  color: #1db954;
+}
+.resume-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 2px solid #1db954;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+.resume-button:hover {
+  background-color: #1db954;
+  color: #000;
+}
+
+/* Section Headings */
+section h2 {
+  text-align: center;
+  margin: 2rem 0 1rem;
+  color: #1db954;
+}
+
+/* About */
+.about-section {
+  background: #000;
+  padding: 3rem 1rem;
+}
+.about-section p {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Skills */
+.skills-section {
+  background: #121212;
+  padding: 3rem 1rem;
+}
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.skill-card {
+  background: #000;
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  width: 220px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.skill-card i {
+  font-size: 2rem;
+  color: #1db954;
+  margin-bottom: 0.5rem;
+}
+.skill-card h3 {
+  margin-bottom: 0.5rem;
+}
+
+/* Projects */
+.projects-section {
+  background: #000;
+  padding: 3rem 1rem;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+.project-card {
+  background: #121212;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+}
+.project-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+.project-card h3 {
+  color: #1db954;
+  margin-bottom: 0.5rem;
+}
+.project-card p {
+  font-size: 0.95rem;
+  color: #ccc;
+}
+.project-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+  list-style: none;
+  padding: 0;
+}
+.project-skills li {
+  background: #1a1a1a;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #1db954;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  color: #1db954;
+}
+
+/* Experience */
+.experience-section {
+  background: #121212;
+  padding: 3rem 1rem;
+}
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.timeline-item {
+  background: #000;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.timeline-item img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.timeline-content h3 {
+  color: #1db954;
+  margin-bottom: 0.3rem;
+}
+
+/* Publications */
+.publications-section {
+  background: #000;
+  padding: 3rem 1rem;
+}
+.publication-card {
+  background: #121212;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+.publication-info h3 {
+  color: #1db954;
+  margin-bottom: 0.5rem;
+}
+.publication-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #1db954;
+  color: #1db954;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+.publication-link:hover {
+  background: #1db954;
+  color: #000;
+}
+
+/* Footer */
+footer {
+  background: #000;
+  text-align: center;
+  padding: 1rem;
+  color: #1db954;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav .nav-links {
+    display: none; /* Add mobile nav toggle if needed */
+  }
+  .skills-grid, .project-grid {
+    grid-template-columns: 1fr;
+  }
+  .timeline-item {
+    flex-direction: column;
+    text-align: center;
+  }
+}
