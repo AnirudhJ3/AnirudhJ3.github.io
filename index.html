@@ -26,7 +26,7 @@
   <!-- Navigation Bar -->
   <nav>
     <div class="container">
-      <a href="#home" class="logo">Anirudh AI</a>
+      <a href="#home" class="logo">Anirudh Jayanthi - Portfolio</a>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -63,6 +63,59 @@
       <p>
         I’m a Robotics and AI researcher building high-fidelity digital twins of real-world environments using Gaussian Splatting, Radiance Fields, and 3D Computer Vision. My research focuses on SLAM, Perception, and Reinforcement Learning for intelligent autonomous systems. Currently, I'm working at UB CAVAS Lab where I engineer real-time sensor fusion and localization systems.
       </p>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience-section">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="experience-list">
+        <div class="experience-item">
+          <div class="experience-header">
+            <h3>State University of New York at Buffalo</h3>
+            <span class="experience-title">Software Engineer Intern, Research Assistant</span>
+            <span class="experience-date">Jun 2024 – Present</span>
+          </div>
+          <ul class="experience-bullets">
+            <li>Engineered a real-time localization pipeline in Autoware for autonomous navigation by fusing GPS (RTK), LiDAR, and IMU using EKF sensor fusion and NDT scan matching, achieving sub-2cm positional error.</li>
+            <li>Implemented Built high-performance C++ ROS 2 nodes in Humble and Autoware to stream, synchronize, and preprocess LiDAR, GPS, and IMU data in real time, reducing latency by 25% on embedded robotics platforms.</li>
+            <li>Built a robust lane detection pipeline for roads with snow and ice, utilizing both real and simulated data to ensure reliable performance, achieving a 92% detection accuracy.</li>
+            <li>Deployed a Kubernetes-based cloud pipeline on GCP to process large-scale sensor data from autonomous vehicles, fusing LiDAR, camera, and GPS inputs to generate semantic HD maps with high spatial precision.</li>
+            <li>Built a video-to-3D Gaussian Splatting pipeline using Python, FFmpeg, COLMAP, and 3DGS integration, enabling dense 3D scene reconstruction from RGBD camera footage for digital twin generation.</li>
+            <li>Tested and validated the entire system using Software-in-the-Loop and Hardware-in-the-Loop testing under safety-critical constraints, improving detection consistency by 15%.</li>
+          </ul>
+        </div>
+
+        <div class="experience-item">
+          <div class="experience-header">
+            <h3>Azista Industries Private Limited</h3>
+            <span class="experience-title">Lead Software Engineer - Computer Vision</span>
+            <span class="experience-date">Feb 2022 – May 2024</span>
+          </div>
+          <ul class="experience-bullets">
+            <li>Implemented an Object Detection pipeline using Python, YOLOv8, and Django REST Framework to process satellite images, achieving 92% accuracy and boosting real-time analytics capabilities.</li>
+            <li>Led full-stack development through the SDLC, integrating an Electron and React.js layer for seamless cross-platform desktop deployment with minimal overhead and sub-2s startup time.</li>
+            <li>Trained and fine-tuned YOLOv8 models for object detection on high-resolution satellite imagery, achieving 92% mAP and enabling robust detection of sub-meter-scale infrastructure.</li>
+            <li>Deployed optimized deep learning models using TorchScript and ONNX for low-latency inference, reducing processing time by 60% for workloads exceeding 50GB/hour.</li>
+            <li>Designed and integrated interactive UI modules in collaboration with the UX team, ensuring smooth communication with cloud-based backend APIs and streamlining satellite image analysis workflows.</li>
+            <li>Mentored and led a team of 4 developers in a startup environment, fostering skill development and collaboration to enhance project efficiency and deliver high-performance computer vision solutions.</li>
+          </ul>
+        </div>
+
+        <div class="experience-item">
+          <div class="experience-header">
+            <h3>ADP</h3>
+            <span class="experience-title">Software Engineer</span>
+            <span class="experience-date">Nov 2020 – Jan 2022</span>
+          </div>
+          <ul class="experience-bullets">
+            <li>Engineered a Python-based automation module that interacts with REST APIs to upload payloads to a cloud-deployed database, reducing manual upload time by 80%.</li>
+            <li>Designed UI components using AngularJS for internal tooling dashboards, improving usability and reducing task completion time by 25% for operations teams.</li>
+            <li>Created backend modules using Node.js and C++ with REST API support to enable high-throughput data processing workflows, improving system reliability and modularity.</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -135,19 +188,71 @@
     <div class="container">
       <h2>Projects</h2>
       <div class="project-grid">
-        <!-- Individual Project Cards -->
-        <!-- Add each project dynamically or manually as cards here -->
-        <!-- Example Placeholder -->
         <div class="project-card">
-          <img src="assets/images/projects/nova.jpg" alt="Nova Project Thumbnail">
-          <h3>Nova - RL-based Warehouse Robot</h3>
+          <img src="assets/images/projects/waiter-ai.jpg" alt="WaiterAI Project Thumbnail">
+          <h3>WaiterAI - AI Voice Agent Using Whisper and RAG</h3>
+          <p>Deployed an audio transcription pipeline across an autoscaling AWS EC2 cluster using OpenAI Whisper, enabling real-time voice-to-text with average response latency under 3s per request. Integrated PostgreSQL with pgvector to store and retrieve menu item embeddings, achieving 92% semantic match accuracy in retrieval-augmented generation (RAG) queries.</p>
           <ul class="project-skills">
-            <li>RL</li>
-            <li>MuJoCo</li>
+            <li>RAG</li>
+            <li>PostgreSQL</li>
+            <li>AWS</li>
+            <li>OpenAI</li>
+            <li>FastAPI</li>
+          </ul>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/images/projects/hadoop-log.jpg" alt="Hadoop Log Analysis Project Thumbnail">
+          <h3>ML-based Hadoop Log Analysis</h3>
+          <p>Created a distributed log analysis pipeline using Kafka to stream structured Hadoop logs and detect anomalies in real time, handling over 500 events per second. Applied an unsupervised Isolation Forest model to detect outliers in EventId, log level, and timing patterns, improving anomaly detection precision by over 35% compared to rule-based methods alone.</p>
+          <ul class="project-skills">
+            <li>Kafka</li>
+            <li>FastAPI</li>
+            <li>SQLite</li>
+            <li>ML</li>
             <li>Python</li>
           </ul>
         </div>
-        <!-- Add more project-card divs for each project -->
+
+        <div class="project-card">
+          <img src="assets/images/projects/sop-monitoring.jpg" alt="SOP Monitoring Project Thumbnail">
+          <h3>Fine-Tuning Vision-Language and Large Language Models for Industrial SOP Monitoring</h3>
+          <p>Fine-tuned NVILA-8B Vision-Language Model and Llama 3.1 LLM using LoRA, achieving a 32% reduction in training time and maintaining 92% accuracy in SOP compliance detection. Developed a scenario definition & management system to process segmented video streams, generating captions, and summarizing insights, enhancing error detection rates by 27%.</p>
+          <ul class="project-skills">
+            <li>LLM</li>
+            <li>VLM</li>
+            <li>LoRA</li>
+            <li>Computer Vision</li>
+            <li>PyTorch</li>
+          </ul>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/images/projects/synthetic-perception.jpg" alt="Synthetic Data-Driven Perception Project Thumbnail">
+          <h3>Synthetic Data-Driven Perception for Warehouse AMRs</h3>
+          <p>Generated high-fidelity synthetic images using NVIDIA Omniverse Replicator, creating realistic warehouse environments with varied lighting, and obstacles to simulate real-world conditions for training vision models. Fine-tuned a RF-DETR on both synthetic and real-world data, improving object detection, obstacle avoidance, and navigation accuracy for AMRs by 15%.</p>
+          <ul class="project-skills">
+            <li>HuggingFace</li>
+            <li>Vision Transformer</li>
+            <li>NVIDIA Omniverse</li>
+            <li>Computer Vision</li>
+            <li>Python</li>
+          </ul>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/images/projects/warehouse-rl.jpg" alt="Warehouse RL Navigation Project Thumbnail">
+          <h3>RL for Warehouse Robot Navigation using MuJoCo</h3>
+          <p>Devised a Deep Reinforcement Learning (DRL) control system using MuJoCo for robotic simulation, utilizing behavior trees for high-level decision-making achieving a 25% reduction in warehouse robot traversal time. Analyzed synthetic sensor logs generated in simulation to calibrate and validate a dynamic model, enabling a Model Predictive Control (MPC) system that achieved 97% navigation stability.</p>
+          <ul class="project-skills">
+            <li>MuJoCo</li>
+            <li>ROS</li>
+            <li>Robotic Manipulation</li>
+            <li>MPC</li>
+            <li>Python</li>
+          </ul>
+        </div>
+
       </div>
     </div>
   </section>
