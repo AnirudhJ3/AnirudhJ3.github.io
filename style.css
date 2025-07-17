@@ -294,3 +294,18 @@ footer {
     text-align: center;
   }
 }
+
+.animated-text {
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.home-section .animated-text {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 100% !important;
+  width: fit-content !important;
+  display: block !important;
+}
